@@ -10,8 +10,10 @@ URL: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-018-0424-0
 
 URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
-# Overview
+# Disclaimer
+The pipeline has been tailored for the Washington University HTCF computing environment (https://htcf.wustl.edu/docs/) which uses the slurm queueing system (https://slurm.schedmd.com/tutorials.html).No guarantees are made about other systems, setups, configurations, etc. 
 
+# Overview
 This toolbox is designed to perform two major functions: 
 
 -  To take calling card data in fastq format, map these data to the genome and create a CCF file that can be used for visualization, and 
