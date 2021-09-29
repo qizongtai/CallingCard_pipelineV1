@@ -1,12 +1,12 @@
 # CallingCard-seq pipelineV1 (pythonv2.7 + bash)
 PiggyBac transposon genomic mapping
 
-M Yen, Z Qi et al. (2018) Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. BMC Medical Genomics 11 (1), 97
+`M Yen, Z Qi et al. (2018) Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. BMC Medical Genomics 11 (1), 97
 
 URL: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-018-0424-0
 
 
-Z Qi et al. An optimized, broadly applicable piggyBac transposon induction system. (2017) Nucleic Acids Research 45 (7), e55-e55
+`Z Qi et al. An optimized, broadly applicable piggyBac transposon induction system. (2017) Nucleic Acids Research 45 (7), e55-e55
 
 URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
@@ -14,9 +14,9 @@ URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
 This toolbox is designed to perform two major functions: 
 
-1.  To take calling card data in fastq format, map these data to the genome and create a CCF file that can be used for visualization, and 
+`1.  To take calling card data in fastq format, map these data to the genome and create a CCF file that can be used for visualization, and 
 
-2.  To call significant binding peaks from a CCF file and report this data in a SIG file.  
+`2.  To call significant binding peaks from a CCF file and report this data in a SIG file.  
 
 The toolbox has been tailored for the Washington University HTCF computing environment 
 (https://htcf.wustl.edu/docs/) which uses the slurm queueing system 
