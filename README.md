@@ -1,12 +1,12 @@
 # CallingCard-seq pipelineV1 (pythonv2.7 + bash)
 PiggyBac transposon genomic mapping
 
-` M Yen, Z Qi et al. (2018) Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. BMC Medical Genomics 11 (1), 97
+- M Yen, Z Qi et al. (2018) Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. BMC Medical Genomics 11 (1), 97
 
 URL: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-018-0424-0
 
 
-` Z Qi et al. An optimized, broadly applicable piggyBac transposon induction system. (2017) Nucleic Acids Research 45 (7), e55-e55
+- Z Qi et al. An optimized, broadly applicable piggyBac transposon induction system. (2017) Nucleic Acids Research 45 (7), e55-e55
 
 URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
