@@ -10,7 +10,7 @@ Z Qi et al. An optimized, broadly applicable piggyBac transposon induction syste
 
 URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
-I.	Overview
+# Overview
 
 This toolbox is designed to perform two major functions: 
 
@@ -22,7 +22,7 @@ The toolbox has been tailored for the Washington University HTCF computing envir
 (https://htcf.wustl.edu/docs/) which uses the slurm queueing system 
 (https://slurm.schedmd.com/tutorials.html).    
 
-II.  	Quick Start
+# Quick Start
 
 A.  Making a CCF file from Illumina Reads.
 
@@ -30,20 +30,13 @@ A.  Making a CCF file from Illumina Reads.
 
 2. In the scripts directory, make a barcodes.txt file with the format: experiment name \t primer barcode \t transposon barcode 1, transposon barcode 2, ... transposon barcode M \n. There is an example of a barcodes.txt file here: /opt/apps/labs/rmlab/code/rmitra/mammalian_cc_tools/ccf_tools_v1.0/bash_scripts/
 
-3. From the directory 
+# From the directory 
 
 /opt/apps/labs/rmlab/code/rmitra/mammalian_cc_tools/ccf_tools_v1.0/bash_scripts/example_human_scripts
 
 copy map_reads.sh, split_reads.sh and make_ccffile.sh to your scripts/ folder in your experiment directory.  Open split_reads to make sure the 3' end transposon sequence matches your experiment and double check the file names.  Open map_reads.sh to make sure the mapping parameters are correct.  [For the analysis of AAV experiments, copy map_reads_aav.sh and split_reads_aav.sh]
 
 4. ÒcdÓ into your scripts/ folder and type ÒinteractiveÓ.  Then type Òmodule load ccf_toolsÓ.  Then type Òpython $CCF_TOOLS/run_all.pyÓ [For the analysis of AAV experiments, use run_all_aav.py].  This will split the reads by barcode into different fasta files, batch them out to different nodes for mapping by bowtie2, and create a CCF file for each experiment in the barcodes.txt file.  The CCF files (with .ccf extension) are located in the output_and_analysis directory.   
-
-
-
-
-
-
-
 
 
 
