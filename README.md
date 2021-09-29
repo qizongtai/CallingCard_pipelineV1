@@ -1,4 +1,4 @@
-# CallingCard-seq pipelineV1 (python + bash)
+# CallingCard-seq pipelineV1 (pythonv2.7 + bash)
 PiggyBac transposon genomic mapping
 
 M Yen, Z Qi et al. (2018) Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. BMC Medical Genomics 11 (1), 97
