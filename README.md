@@ -6,7 +6,7 @@ This pipeline was used in the following papers
 URL: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-018-0424-0
 
 
-- Z Qi et al. An optimized, broadly applicable piggyBac transposon induction system. (2017) Nucleic Acids Research 45 (7), e55-e55
+- Z Qi et al. (2017) An optimized, broadly applicable piggyBac transposon induction system. Nucleic Acids Research 45 (7), e55-e55
 
 URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
