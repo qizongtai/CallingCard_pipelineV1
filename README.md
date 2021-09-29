@@ -1,12 +1,12 @@
 # CallingCard-seq pipelineV1 (pythonv2.7 + bash)
 This pipeline was used in the following papers
 
-- M Yen, Z Qi et al. (2018) Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. BMC Medical Genomics 11 (1), 97
+- Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. (2018) M Yen, Z Qi et al. BMC Medical Genomics 11 (1), 97 
 
 URL: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-018-0424-0
 
 
-- Z Qi et al. (2017) An optimized, broadly applicable piggyBac transposon induction system. Nucleic Acids Research 45 (7), e55-e55
+- An optimized, broadly applicable piggyBac transposon induction system. (2017) Z Qi et al. Nucleic Acids Research 45 (7), e55-e55 
 
 URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
