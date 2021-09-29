@@ -14,9 +14,9 @@ URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
 This toolbox is designed to perform two major functions: 
 
--1.  To take calling card data in fastq format, map these data to the genome and create a CCF file that can be used for visualization, and 
+-  To take calling card data in fastq format, map these data to the genome and create a CCF file that can be used for visualization, and 
 
--2.  To call significant binding peaks from a CCF file and report this data in a SIG file.  
+-  To call significant binding peaks from a CCF file and report this data in a SIG file.  
 
 The toolbox has been tailored for the Washington University HTCF computing environment 
 (https://htcf.wustl.edu/docs/) which uses the slurm queueing system 
