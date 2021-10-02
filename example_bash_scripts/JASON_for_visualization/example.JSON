@@ -1,0 +1,48 @@
+[
+	#This is a comment
+	{
+		"type":"callingcard",
+		"url":"https://htcf.wustl.edu/files/Ldb8ggX3/OCM1A_BapN.ccf.gz",
+		"name":"BapN OCM1A",
+		"mode":"show",
+		"colorpositive":"#ff33cc",
+		"height":75,
+		"qtc":{logtype:4}
+	},
+	{
+		"type":"bedgraph",
+		"url":"https://htcf.wustl.edu/files/Ldb8ggX3/OCM1A_BapN_hc_5000.peaks.bed.gz",
+		"name":"BapN peaks",
+		"mode":"show",
+		"colorpositive":"#ff33cc",
+		"height":75,
+		"fixedscale":{min:0,max:1000}
+	},
+	{
+		"type":"callingcard",
+		"url":"https://htcf.wustl.edu/files/Ldb8ggX3/OCM1A_BapC.ccf.gz",
+		"name":"BapC OCM1A",
+		"mode":"show",
+		"colorpositive":"#ff33cc",
+		"height":75,
+		"qtc":{logtype:4}
+	},
+	{
+		"type":"bedgraph",
+		"url":"https://htcf.wustl.edu/files/Ldb8ggX3/OCM1A_BapC_hc_5000.peaks.bed.gz",
+		"name":"BapC peaks",
+		"mode":"show",
+		"colorpositive":"#ff33cc",
+		"height":75,
+		"fixedscale":{min:0,max:1000}
+	},
+	{
+		"type":"callingcard",
+		"url":"https://htcf.wustl.edu/files/Ldb8ggX3/OCM1A_HyPB.ccf.gz",
+		"name":"HyPB",
+		"mode":"show",
+		"colorpositive":"#ff33cc",
+		"height":75,
+		"qtc":{logtype:4}
+	},
+]
