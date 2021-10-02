@@ -30,11 +30,11 @@ A.  Making a CCF file from Illumina Reads.
 
 1. In your experiment directory, make three subdirectories named raw/, output_and_analysis/, and scripts/.  Put your unzipped fastq data in the raw directory.  Name the files combined_R1.fastq etc. (this naming is not required, but then you will not have to change any options from the example shells)
 
-2. In the scripts directory, make a barcodes.txt file with the format: experiment name \t primer barcode \t transposon barcode 1, transposon barcode 2, ... transposon barcode M \n. There is an example of a barcodes.txt file here: /example_bash_scripts/
+2. In the scripts directory, make a barcodes.txt file with the format: experiment name \t primer barcode \t transposon barcode 1, transposon barcode 2, ... transposon barcode M \n. There is an example of a barcodes.txt file here: CallingCard_pipelineV1/example_bash_scripts/
 
-# From the directory 
+# Example Scripts
 
-/opt/apps/labs/rmlab/code/rmitra/mammalian_cc_tools/ccf_tools_v1.0/bash_scripts/example_human_scripts
+From the directory: CallingCard_pipelineV1/exmpale_bash_scripts/human
 
 copy map_reads.sh, split_reads.sh and make_ccffile.sh to your scripts/ folder in your experiment directory.  Open split_reads to make sure the 3' end transposon sequence matches your experiment and double check the file names.  Open map_reads.sh to make sure the mapping parameters are correct.  [For the analysis of AAV experiments, copy map_reads_aav.sh and split_reads_aav.sh]
 
