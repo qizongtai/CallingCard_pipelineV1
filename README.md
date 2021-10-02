@@ -1,4 +1,4 @@
-# CallingCard-seq pipelineV1 (pythonv2.7 + bash)
+# CallingCard-seq pipelineV1 (python2.7 + bash)
 This pipeline was used in the following papers
 
 - Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. (2018) M Yen, Z Qi et al. BMC Medical Genomics 11 (1), 97 
