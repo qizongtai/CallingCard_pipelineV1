@@ -3,12 +3,12 @@ This pipeline was used in the following papers
 
 - Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. (2018) M Yen, Z Qi et al. BMC Medical Genomics 11 (1), 97 
 
-URL: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-018-0424-0
+  URL: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-018-0424-0
 
 
 - An optimized, broadly applicable piggyBac transposon induction system. (2017) Z Qi et al. Nucleic Acids Research 45 (7), e55-e55 
 
-URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
+  URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
 # Disclaimer
 The pipeline has been tailored for the Washington University HTCF computing environment (https://htcf.wustl.edu/docs/) which uses the slurm queueing system (https://slurm.schedmd.com/tutorials.html). No guarantees are made about other systems, setups, configurations, etc. 
