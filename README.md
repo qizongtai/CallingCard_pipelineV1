@@ -30,7 +30,7 @@ A.  Making a CCF file from Illumina Reads.
 
 1. In your experiment directory, make three subdirectories named raw/, output_and_analysis/, and scripts/.  Put your unzipped fastq data in the raw directory.  Name the files combined_R1.fastq etc. (this naming is not required, but then you will not have to change any options from the example shells)
 
-2. In the scripts directory, make a barcodes.txt file with the format: experiment name \t primer barcode \t transposon barcode 1, transposon barcode 2, ... transposon barcode M \n. There is an example of a barcodes.txt file here: /opt/apps/labs/rmlab/code/rmitra/mammalian_cc_tools/ccf_tools_v1.0/bash_scripts/
+2. In the scripts directory, make a barcodes.txt file with the format: experiment name \t primer barcode \t transposon barcode 1, transposon barcode 2, ... transposon barcode M \n. There is an example of a barcodes.txt file here: /example_bash_scripts/
 
 # From the directory 
 
