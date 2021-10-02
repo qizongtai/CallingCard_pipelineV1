@@ -1,1 +1,0 @@
-example_bash_scripts
