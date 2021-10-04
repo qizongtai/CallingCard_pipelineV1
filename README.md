@@ -10,6 +10,8 @@ This pipeline was used in the following papers
 
   URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
+-----
+
 ## Disclaimer
 The pipeline has been tailored for the Washington University HTCF computing environment (https://htcf.wustl.edu/docs/) which uses the slurm queueing system (https://slurm.schedmd.com/tutorials.html). No guarantees are made about other systems, setups, configurations, etc. 
 
