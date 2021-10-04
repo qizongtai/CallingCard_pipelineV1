@@ -1,4 +1,4 @@
-# CallingCard-seq pipelineV1 (python2.7 + bash)
+## CallingCard-seq pipelineV1 (python2.7 + bash)
 This pipeline was used in the following papers
 
 - Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. (2018) M Yen, Z Qi et al. BMC Medical Genomics 11 (1), 97 
@@ -10,10 +10,10 @@ This pipeline was used in the following papers
 
   URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
-# Disclaimer
+## Disclaimer
 The pipeline has been tailored for the Washington University HTCF computing environment (https://htcf.wustl.edu/docs/) which uses the slurm queueing system (https://slurm.schedmd.com/tutorials.html). No guarantees are made about other systems, setups, configurations, etc. 
 
-# Overview
+## Overview
 This toolbox is designed to perform two major functions: 
 
 -  To take calling card data in fastq format, map these data to the genome and create a CCF file that can be used for visualization, and 
@@ -24,7 +24,7 @@ The toolbox has been tailored for the Washington University HTCF computing envir
 (https://htcf.wustl.edu/docs/) which uses the slurm queueing system 
 (https://slurm.schedmd.com/tutorials.html).    
 
-# Quick Start
+## Quick Start
 
 A.  Making a CCF file from Illumina Reads.
 
@@ -32,7 +32,7 @@ A.  Making a CCF file from Illumina Reads.
 
 2. In the scripts directory, make a barcodes.txt file with the format: experiment name \t primer barcode \t transposon barcode 1, transposon barcode 2, ... transposon barcode M \n. There is an example of a barcodes.txt file here: CallingCard_pipelineV1/example_bash_scripts/
 
-# Example Scripts
+## Example Scripts
 
 From the directory: CallingCard_pipelineV1/exmpale_bash_scripts/human
 
