@@ -1,5 +1,5 @@
 # CallingCard-seq pipelineV1 (python2.7 + bash)
------
+
 This pipeline was used in the following papers
 
 - Genomic targets of BAP1 in uveal melanoma identified by transposase mapping. (2018) M Yen, Z Qi et al. BMC Medical Genomics 11 (1), 97 
@@ -11,7 +11,7 @@ This pipeline was used in the following papers
 
   URL: https://pubmed.ncbi.nlm.nih.gov/28082389/
 
-
+-----
 ## Disclaimer
 The pipeline has been tailored for the Washington University HTCF computing environment (https://htcf.wustl.edu/docs/) which uses the slurm queueing system (https://slurm.schedmd.com/tutorials.html). No guarantees are made about other systems, setups, configurations, etc. 
 
