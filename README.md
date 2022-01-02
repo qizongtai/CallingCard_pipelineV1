@@ -18,7 +18,7 @@ The pipeline has been tailored for the Washington University HTCF computing envi
 ## Overview
 This toolbox is designed to perform two major functions: 
 
--  To take calling card data in fastq format, map these data to the genome and create a CCF file that can be used for visualization, and 
+-  To take calling card data in fastq format, map these data to the genome and create a CalingCardFormat (CCF) file that can be used for visualization, and 
 
 -  To call significant binding peaks from a CCF file and report this data in a SIG file.  
 
