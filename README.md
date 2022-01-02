@@ -48,9 +48,9 @@ The toolbox has been tailored for the Washington University HTCF computing envir
 3. Modify the -t and -a paramters as follows (the TTAA locations file and the annotation file):
 
 -  hg38:
-   -t /scratch/ref/rmlab/calling_card_ref/human/TTAA_hg38_ccf.txt
+   * t /scratch/ref/rmlab/calling_card_ref/human/TTAA_hg38_ccf.txt
    
-   -a /scratch/ref/rmlab/calling_card_ref/human/refGene.hg38.Sorted.bed
+   * a /scratch/ref/rmlab/calling_card_ref/human/refGene.hg38.Sorted.bed
 -  hg19:
    -t /scratch/ref/rmlab/calling_card_ref/human/TTAA_hg19_ccf.txt
    
