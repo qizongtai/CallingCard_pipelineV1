@@ -82,7 +82,7 @@ From the directory: CallingCard_pipelineV1/exmpale_bash_scripts/human
 -  Open split_reads to make sure the 3' end transposon sequence matches your experiment and double check the file names.  
 -  Open map_reads.sh to make sure the mapping parameters are correct.  [For the analysis of AAV experiments, copy map_reads_aav.sh and split_reads_aav.sh]
 -  `cd` into your scripts/ folder and type `interactive`.  
--  Then type `module load ccf_tools`.  
+-  Then type `module load ccf_tools` if using Washington University htcf cluster.  
 -  Then type `python run_all.py` [For the analysis of AAV experiments, use run_all_aav.py].  
 
 This will split the reads by barcode into different fasta files, batch them out to different nodes for mapping by bowtie2, and create a CCF file for each experiment in the barcodes.txt file. The CCF files (with .ccf extension) are located in the output_and_analysis directory.
