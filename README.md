@@ -65,16 +65,14 @@ The toolbox has been tailored for the Washington University HTCF computing envir
 ## The Different Types of Calling Card Data
 This toolkit is designed to map raw Calling Card data for three different protocols (In addition to calling significant peaks for any .ccf file). These are the "V2" DNA calling card protocol, the AAV calling card protocol and the bulk SRT protocol. What matters for the purposes of mapping the reads is what sequences are collected in
 Read1, Read 2 and Index 1. The software expects the following sequences:
-For V2 and SRT:
-Read 1: has a 3-5 bp primer barcode followed by a sequence from the 5' TR of the piggyBac transposon. This sequence is typically TTTACGCAGACTATCTTTCTAGGG or GCGTCAATTTTACGCAGACTATCTTTCTAGGG. Then comes the TTAA and then genomic sequence.
-Read 2: reads through the restriction enzyme bank (at most 11bp) and then into the genome. (For SRT bulk this is genome sequence right away, but for most purposes the same code can be used to analyze both experiments) 
-Index 1: reads the transposon barcode (For SRTs this is the index read which serves as a "transposon barcode")
+### For V2 and SRT:
+-  Read 1: has a 3-5 bp primer barcode followed by a sequence from the 5' TR of the piggyBac transposon. This sequence is typically TTTACGCAGACTATCTTTCTAGGG or GCGTCAATTTTACGCAGACTATCTTTCTAGGG. Then comes the TTAA and then genomic sequence.
+-  Read 2: reads through the restriction enzyme bank (at most 11bp) and then into the genome. (For SRT bulk this is genome sequence right away, but for most purposes the same code can be used to analyze both experiments) 
+-  Index 1: reads the transposon barcode (For SRTs this is the index read which serves as a "transposon barcode")
 
-For AAV:
-R1: 5bp primer barcode followed by GCGTCAATTTTACGCAGACTATCTTTCTAGGG TTAA
-then genomic sequence
-R2: 6bp transposon barcode followed by bank of TaqI,MspI, Cst6 restriction sites followed by
-genomic sequence. All samples should have the same group of transposon barcodes.
+### For AAV:
+-  Read1: 5bp primer barcode followed by GCGTCAATTTTACGCAGACTATCTTTCTAGGG TTAA then genomic sequence
+-  Read2: 6bp transposon barcode followed by bank of TaqI,MspI, Cst6 restriction sites followed by genomic sequence. All samples should have the same group of transposon barcodes.
 
 ## Example Scripts
 
