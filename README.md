@@ -28,7 +28,7 @@ The toolbox has been tailored for the Washington University HTCF computing envir
 
 ## Quick Start
 
-A.  Making a CCF file from Illumina Reads.
+### A.  Making a CCF file from Illumina Reads.
 
 1. In your experiment directory, make three subdirectories named raw/, output_and_analysis/, and scripts/.  Put your unzipped fastq data in the raw directory.  Name the files combined_R1.fastq etc. (this naming is not required, but then you will not have to change any options from the example shells)
 
@@ -39,14 +39,15 @@ A.  Making a CCF file from Illumina Reads.
 4. In the scripts directory type interactive. Then type module load ccf_tools. Then type “python $CCF_TOOLS/run_all.py” [For the analysis of AAV experiments, use run_all_aav.py]. This will split the reads by barcode into different fasta files, batch them out to different nodes for mapping by bowtie2, and create a CCF file for each experiment in the barcodes.txt file. The CCF files (with .ccf extension) are located in the output_and_analysis directory.
 
 
-B. Calling Significant Peaks from a CCF file.
+### B. Calling Significant Peaks from a CCF file.
 
 1. Copy the template shell call_peaks.sh to your scripts directory. 
 
 2. Modify the -e and -b parameters with the file names of your experiment and background file and the -o with the output parameter.
 
 3. Modify the -t and -a paramters as follows (the TTAA locations file and the annotation file):
-hg38:
+
+-  hg38:
 -t /scratch/ref/rmlab/calling_card_ref/human/TTAA_hg38_ccf.txt
 -a /scratch/ref/rmlab/calling_card_ref/human/refGene.hg38.Sorted.bed
 hg19:
