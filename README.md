@@ -1,4 +1,4 @@
-# CallingCard-seq pipelineV1 (python2.7 + bash scripts)
+# CallingCard-seq pipelineV1 (python2.7 + bash)
 
 This pipeline was used in the following papers
 
