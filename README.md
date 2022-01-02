@@ -48,13 +48,20 @@ The toolbox has been tailored for the Washington University HTCF computing envir
 3. Modify the -t and -a paramters as follows (the TTAA locations file and the annotation file):
 
 -  hg38:
+
 -t /scratch/ref/rmlab/calling_card_ref/human/TTAA_hg38_ccf.txt
+
 -a /scratch/ref/rmlab/calling_card_ref/human/refGene.hg38.Sorted.bed
-hg19:
+-  hg19:
+
 -t /scratch/ref/rmlab/calling_card_ref/human/TTAA_hg19_ccf.txt
+
 -a /scratch/ref/rmlab/calling_card_ref/human/refGene.hg38.Sorted.bed
-mm10:
+
+-  mm10:
+
 -t /scratch/ref/rmlab/calling_card_ref/mouse/TTAA_mm10_ccf.txt
+
 -a /scratch/ref/rmlab/calling_card_ref/mouse/refGene.mm10.Sorted.bed
 
 4. Run the shell by typing: sbatch call_peaks.sh
