@@ -1,4 +1,4 @@
-# CallingCard-seq pipelineV1 (python2.7 + bash)
+# CallingCard-seq pipelineV1 (python2.7 + bash scripts)
 
 This pipeline was used in the following papers
 
@@ -78,12 +78,18 @@ Read1, Read 2 and Index 1. The software expects the following sequences:
 
 From the directory: CallingCard_pipelineV1/exmpale_bash_scripts/human
 
-copy map_reads.sh, split_reads.sh and make_ccffile.sh to your scripts/ folder in your experiment directory.  Open split_reads to make sure the 3' end transposon sequence matches your experiment and double check the file names.  Open map_reads.sh to make sure the mapping parameters are correct.  [For the analysis of AAV experiments, copy map_reads_aav.sh and split_reads_aav.sh]
+copy map_reads.sh, split_reads.sh and make_ccffile.sh to your scripts/ folder in your experiment directory.  
+Open split_reads to make sure the 3' end transposon sequence matches your experiment and double check the file names.  
+Open map_reads.sh to make sure the mapping parameters are correct.  [For the analysis of AAV experiments, copy map_reads_aav.sh and split_reads_aav.sh]
 
-`cd` into your scripts/ folder and type `interactive`.  Then type `module load ccf_tools`.  Then type `python $CCF_TOOLS/run_all.py` [For the analysis of AAV experiments, use run_all_aav.py].  This will split the reads by barcode into different fasta files, batch them out to different nodes for mapping by bowtie2, and create a CCF file for each experiment in the barcodes.txt file.  The CCF files (with .ccf extension) are located in the output_and_analysis directory.   
+`cd` into your scripts/ folder and type `interactive`.  
+Then type `module load ccf_tools`.  
+Then type `python $CCF_TOOLS/run_all.py` [For the analysis of AAV experiments, use run_all_aav.py].  
+This will split the reads by barcode into different fasta files, batch them out to different nodes for mapping by bowtie2, and create a CCF file for each experiment in the barcodes.txt file. 
+The CCF files (with .ccf extension) are located in the output_and_analysis directory.
 
+## Example usage:
 
-usage:
 python cc_filter_reads.py -r1 <read1 file> -r2 <read2 file> 
 -i <index file> -b<barcode file> -o <output path>
 --hammp <hamming distance for primer barcode>
