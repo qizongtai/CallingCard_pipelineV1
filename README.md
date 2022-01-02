@@ -87,7 +87,7 @@ From the directory: CallingCard_pipelineV1/exmpale_bash_scripts/human
 
 This will split the reads by barcode into different fasta files, batch them out to different nodes for mapping by bowtie2, and create a CCF file for each experiment in the barcodes.txt file. The CCF files (with .ccf extension) are located in the output_and_analysis directory.
 
-## Example Commands:
+## Example Commands
 
 python cc_filter_reads.py -r1 <read1 file> -r2 <read2 file> 
 -i <index file> -b<barcode file> -o <output path>
