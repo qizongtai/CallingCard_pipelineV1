@@ -90,17 +90,17 @@ This will split the reads by barcode into different fasta files, batch them out 
 ## Example Commands
 
 `python cc_filter_reads.py -r1 <read1 file> -r2 <read2 file>
--i <index file> -b <barcode file> -o <output path>
+-i <index file> -b <barcode file> -o <output file>
 --hammp <hamming distance for primer barcode>
 --hammt <hamming distance for transposon barcode>`
 
 -  required fields:
-    * -r1 \<read1 filename\> (full path)
-    * -i index filename (full path)
+    * -r1 \<read1 file\> (path\to\read1\)
+    * -i \<index file\> (full path)
 
 -  not required:
-    * -r2 read2 filename (full path)
-    * -b barcode file = ../raw/barcodes.txt
-    * -o output path = ../output_and_analysis
+    * -r2 \<read2 file\> (full path)
+    * -b \<barcode file\> = ../raw/barcodes.txt
+    * -o \<output file\> = ../output_and_analysis
     * -hp 0
     * -tp 0
