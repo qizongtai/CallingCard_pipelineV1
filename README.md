@@ -95,12 +95,12 @@ This will split the reads by barcode into different fasta files, batch them out 
 --hammt <hamming distance for transposon barcode>`
 
 -  required fields:
-    * -r1 \<read1 file\> (path\to\read1\)
-    * -i \<index file\> (full path)
+    * -r1 \<read1 file\> (path/to/read1)
+    * -i \<index file\> (path/to/index)
 
 -  not required:
-    * -r2 \<read2 file\> (full path)
-    * -b \<barcode file\> = ../raw/barcodes.txt
-    * -o \<output file\> = ../output_and_analysis
+    * -r2 \<read2 file\> (path/to/read2)
+    * -b \<barcode file\> (path/to/raw/barcodes.txt)
+    * -o \<output file\> (path/to/output)
     * -hp 0
     * -tp 0
