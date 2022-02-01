@@ -106,7 +106,7 @@ This will split the reads by barcode into different fasta files, batch them out 
     * -tp 0
 
 ## Visualizaiton of TF-directed insertions in genome browser
-
+![CC_browser_view2](https://user-images.githubusercontent.com/33009124/151922529-26725e0a-8e15-4965-98b5-3281bccc5a00.png)
 
 
 
